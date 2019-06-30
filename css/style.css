@@ -56,3 +56,19 @@ body {
 .showcase p {
   font-size: 1.3rem;
 }
+
+.btn {
+  display: inline-block; /*so that it works on links and so on*/
+  border: none;
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  margin-top: 1rem;
+  text-decoration: none;
+  transition: opacity 1s ease-in;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
