@@ -1,0 +1,6 @@
+.menu-wrap {
+  position: fixed; /*so its always at the top, even though we can't scroll down, it we could it would always remain at the top*/
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
