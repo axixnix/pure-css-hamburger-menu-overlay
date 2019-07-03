@@ -15,3 +15,19 @@
   height: 50px;
   opacity: 0;
 }
+
+.menu-wrap .hamburger {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 60px;
+  height: 60px;
+  padding: 1rem;
+  background: var(
+    --primary-color
+  ); /*this works because our style.css link is above the menu.css link in index.html so this file can inherit the variables in the style.css file*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
