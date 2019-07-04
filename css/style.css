@@ -16,6 +16,7 @@ body {
 }
 
 .container {
+  /*pushes everything to the middle*/
   max-width: 960px;
   margin: auto;
   overflow: hidden;
@@ -29,9 +30,9 @@ body {
   position: relative;
 }
 
-.shocase:before {
+.showcase:before {
   content: "";
-  background: url("../img/showcase.jpg") no-repeat center center/cover;
+  background: url("../img/img1.jpeg") no-repeat center center/cover;
   position: absolute;
   top: 0;
   left: 0;
