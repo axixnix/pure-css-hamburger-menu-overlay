@@ -45,6 +45,7 @@
   justify-content: center;
 }
 
+/*top and bottom lines*/
 .menu-wrap .hamburger > div:before,
 .menu-wrap .hamburger > div:after {
   content: "";
@@ -54,4 +55,9 @@
   width: 100%;
   height: 2px;
   background: inherit; /*these before and after elements are pseudo elements, using inherit here means that they inherit background value the middle line div has*/
+}
+
+/*moves line down*/
+.menu-wrap .hamburger > div:after {
+  top: 10px;
 }
