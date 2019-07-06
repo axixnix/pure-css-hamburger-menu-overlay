@@ -44,3 +44,14 @@
   align-items: center;
   justify-content: center;
 }
+
+.menu-wrap .hamburger > div:before,
+.menu-wrap .hamburger > div:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: -10px; /*takes both lines above the middle line, it will look like its a single line but its actually 2*/
+  width: 100%;
+  height: 2px;
+  background: inherit; /*these before and after elements are pseudo elements, using inherit here means that they inherit background value the middle line div has*/
+}
