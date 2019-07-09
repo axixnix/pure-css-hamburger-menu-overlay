@@ -67,3 +67,10 @@
 .menu-wrap .toggler:checked + .hamburger > div {
   transform: rotate(135deg);
 }
+
+/*turn lines into X*/
+.menu-wrap .toggler:checked + .hamburger > div:before,
+.menu-wrap .toggler:checked + .hamburger > div:after {
+  top: 0;
+  transform: rotate(90deg);
+}
